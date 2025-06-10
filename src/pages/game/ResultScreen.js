@@ -22,7 +22,7 @@ export default function ResultScreen() {
 
   const handleQuit = () => {
     // 跳轉到外部網站
-    window.open('https://classroomdaydream.vercel.app', '_blank');
+    window.location.href = 'https://classroomdaydream.vercel.app';
   };
 
   // 根據勝敗決定顯示內容
